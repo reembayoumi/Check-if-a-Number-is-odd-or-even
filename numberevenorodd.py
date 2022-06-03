@@ -4,11 +4,12 @@
 
 # This program adds two numbers
 
-num1 = 1.5
-num2 = 6.3
+num = 4
 
-# Add two numbers
-sum = num1 + num2
+if (num % 2) == 0:
+   print("{0} is Even".format(num))
+else:
+   print("{0} is Odd".format(num))
 
 # Display the sum
 print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
